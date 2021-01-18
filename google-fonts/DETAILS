@@ -1,0 +1,14 @@
+          MODULE=google-fonts
+         VERSION=master
+          SOURCE=$VERSION.zip
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/fonts-master/
+      SOURCE_URL=https://github.com/google/fonts/archive/
+      SOURCE_VFY=
+        WEB_SITE=https://multimc.org/
+         ENTERED=20200918
+         UPDATED=20200918
+           SHORT="Google Fonts"
+
+cat << EOF
+This project mainly contains the binary font files served by Google Fonts.
+EOF

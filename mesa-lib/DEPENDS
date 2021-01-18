@@ -1,0 +1,44 @@
+depends %UDEV
+depends expat
+depends elfutils
+depends libgcrypt
+depends libdrm
+depends libXxf86vm
+depends libXdamage
+depends libxshmfence
+depends libXrandr
+depends libxml2
+depends dbus-glib
+depends python-mako
+depends wayland-protocols
+depends libglvnd
+depends libunwind
+depends libvdpau
+depends libXvMC
+depends zstd
+depends llvm
+depends libva
+depends meson
+
+optional_depends libepoxy "" "" "for OpenGL pointer management support (gtk+-3 needs it)"
+
+optional_depends lm_sensors \
+                 "-D lmsensors=enabled" \
+                 "-D lmsensors=disabled" \
+                 "for hardware sensors monitoring support"
+
+optional_depends libomxil-bellagio \
+                 "-D gallium-omx=bellagio" \
+                 "-D gallium-omx=disabled" \
+                 "for OpenMAX Integration Layer API support"
+
+optional_depends glslang \
+                 "-D vulkan-overlay-layer=true" \
+                  "-D vulkan-device-select-layer=true" \
+                 "for Vulkan Device Selection Layer" \
+                 "n"
+optional_depends libclc \
+      "-D gallium-opencl=icd" \
+      "" \
+      "for OpenCL support" \
+      "n"

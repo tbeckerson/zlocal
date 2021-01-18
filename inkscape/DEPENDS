@@ -1,0 +1,54 @@
+depends gsl
+depends libsoup
+depends double-conversion
+depends gc
+depends %JPEG
+depends libpng
+depends potrace
+depends gtkmm3
+depends gdl
+depends aspell
+depends libsigc++2
+depends boost
+depends python-numpy
+depends python-lxml
+
+optional_depends openmp \
+        "-DWITH_OPENMP=ON" \
+        "-DWITH_OPENMP=OFF" \
+        "for multithread filter processing support (highly recommended)"
+
+optional_depends poppler \
+        "-DENABLE_POPPLER=ON" \
+        "-DENABLE_POPPLER=OFF" \
+        "for PDF support (highly recommended)"
+
+optional_depends lcms2 \
+        "-DENABLE_LCMS=ON" \
+        "-DENABLE_LCMS=OFF" \
+        "for Colour Management support"
+
+optional_depends dbus \
+        "-DWITH_DBUS=ON" \
+        "-DWITH_DBUS=OFF" \
+        "for dbus support"
+
+optional_depends gtkspell3 \
+        "-DWITH_GTKSPELL=ON" \
+        "-DWITH_GTKSPELL=OFF" \
+        "for spelling support"
+
+optional_depends libvisio \
+        "-DWITH_LIBVISIO=ON" \
+        "-DWITH_LIBVISIO=OFF" \
+        "for visio diagram support"
+
+optional_depends libwpg \
+        "-DWITH_LIBWPG=ON" \
+        "-DWITH_LIBWPG=OFF" \
+        "for WordPerfect Graphics support"
+
+optional_depends jemalloc \
+        "-DWITH_JEMALLOC=ON" \
+        "-DWITH_JEMALLOC=OFF" \
+        "for memory allocation support"

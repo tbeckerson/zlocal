@@ -1,0 +1,15 @@
+          MODULE=MultiMC5
+         VERSION=0.6.11
+          NBTVER=multimc-0.6.1
+          QUAVER=multimc-3
+          SOURCE=$VERSION.tar.gz
+      SOURCE_URL=https://github.com/MultiMC/$MODULE/archive/
+      SOURCE_VFY=7cad736f1fe3f2887aeaa7a7f3927930e16ed815c98e4cf3a7378a99c426a775
+        WEB_SITE=https://multimc.org/
+         ENTERED=20200419
+         UPDATED=20200923
+           SHORT="Minecraft Launcher"
+
+cat << EOF
+MultiMC is a custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once.
+EOF

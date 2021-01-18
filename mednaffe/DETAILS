@@ -1,0 +1,16 @@
+		  MODULE=mednaffe
+         VERSION=0.8.8
+          SOURCE=$MODULE-$VERSION.tar.gz
+
+      SOURCE_URL=https://github.com/AmatCoder/mednaffe/releases/download/$VERSION/
+      SOURCE_VFY=ec5b3db0d83d747ce6ad0c3b0cf4483914b2308aa089ec52dd9d45d5b093acb7
+        WEB_SITE=https://github.com/AmatCoder/mednaffe
+         ENTERED=20190705
+         UPDATED=20191002
+           SHORT="A front-end (GUI) for mednafen emulator"
+
+cat << EOF
+
+Mednaffe is a front-end (GUI) for mednafen emulator - http://mednafen.github.io/
+
+EOF

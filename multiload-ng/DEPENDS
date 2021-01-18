@@ -1,0 +1,12 @@
+depends cairo
+
+optional_depends xfce4-panel \
+    "--with-xfce4" \
+    "" \
+    "build a plugin for xfce4?"
+
+
+optional_depends lxpanel \
+    "--with-lxpanel" \
+    "" \
+    "build a plugin for LXPanel?"

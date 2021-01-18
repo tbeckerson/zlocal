@@ -1,0 +1,13 @@
+          MODULE=Spice-up
+         VERSION=1.8.2
+          SOURCE=$VERSION.tar.gz
+      SOURCE_URL=https://github.com/Philip-Scott/Spice-up/archive/
+      SOURCE_VFY=67783d7fb8f7a4756f4312e8a43d4d9c9d60524956dd3de9076506a2da513c17
+        WEB_SITE=https://github.com/Philip-Scott/Spice-up/
+         ENTERED=20200925
+         UPDATED=20200925
+           SHORT="Create Presentations"
+
+cat << EOF
+Create presentations that stand out! Spice-Up has everything you need to create simple and beautiful presentations. Get your ideas across with beautiful designed templates, or start from scratch with a blank canvas.
+EOF

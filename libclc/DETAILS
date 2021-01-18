@@ -1,0 +1,15 @@
+          MODULE=libclc
+         VERSION=11.0.0
+          SOURCE=$MODULE-$VERSION.src.tar.xz
+SOURCE_DIRECTORY=${BUILD_DIRECTORY}/$MODULE-$VERSION.src
+      SOURCE_URL=https://github.com/llvm/llvm-project/releases/download/llvmorg-$VERSION/
+      SOURCE_VFY=sha256:5a0a2f67b85ede09b2f08c071c5b0b6b5ad56bfb00b39a22c369afcc613c42ee
+        WEB_SITE=http://openmp.llvm.org/
+         ENTERED=20181127
+         UPDATED=20201110
+            TYPE=cmake
+           SHORT="LLVM/Clang OpenCL support"
+
+cat << EOF
+libclc is an open source, BSD/MIT dual licensed implementation of the library requirements of the OpenCL C programming language, as specified by the OpenCL 1.1 Specification.
+EOF

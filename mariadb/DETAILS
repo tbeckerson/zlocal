@@ -1,0 +1,15 @@
+          MODULE=mariadb
+         VERSION=10.5.8
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=https://mirrors.n-ix.net/mariadb/mariadb-$VERSION/source/
+      SOURCE_VFY=
+        WEB_SITE=http://mariadb.org/
+         ENTERED=20130921
+         UPDATED=20210116
+           SHORT="Fast SQL database server, drop-in replacement for MySQL"
+
+cat << EOF
+MariaDB is a drop-in replacement for MySQL.
+MariaDB strives to be the logical choice for database professionals looking
+for a robust, scalable, and reliable SQL server.
+EOF

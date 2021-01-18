@@ -1,0 +1,6 @@
+depends gnutls
+depends libgcrypt
+depends openssl
+
+#needs this for gnucash
+depends gtk+-3

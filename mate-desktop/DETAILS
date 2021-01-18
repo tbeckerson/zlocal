@@ -1,0 +1,14 @@
+          MODULE=mate-desktop
+         VERSION=1.24.1
+          SOURCE=$MODULE-$VERSION.tar.xz
+      SOURCE_URL=https://github.com/$MODULE/$MODULE/releases/download/v${VERSION}/
+      SOURCE_VFY=d1e8cfae3828d8f083d624b1bfaa332a68ff37c145286432e9e6875a916da1d9
+        WEB_SITE=http://www.mate-desktop.org
+         ENTERED=20081030
+         UPDATED=20201002
+           SHORT="Mate Desktop - Common files"
+
+cat << EOF
+The MATE Desktop Environment is the continuation of GNOME 2. It provides an intuitive and attractive desktop environment using traditional metaphors for Linux and other Unix-like operating systems.
+This package contains the common files for Mate applications.
+EOF

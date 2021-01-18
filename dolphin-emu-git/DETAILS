@@ -1,0 +1,13 @@
+          MODULE=dolphin-emu-git
+         VERSION=master
+          SOURCE=$VERSION.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/dolphin-${VERSION}      SOURCE_URL=https://github.com/dolphin-emu/dolphin/archive/
+      SOURCE_VFY=
+        WEB_SITE=http://www.dolhpin-emu.org/
+         ENTERED=20200917
+         UPDATED=20200917
+           SHORT="Nintendo GameCube + Wii Emulator"
+
+cat << EOF
+Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more! 
+EOF

@@ -1,0 +1,15 @@
+          MODULE=psi-notify
+         VERSION=1.0.1
+          SOURCE=${VERSION}.tar.gz
+ SOURCE_URL=https://github.com/cdown/psi-notify/archive/
+      SOURCE_VFY=e3cb4a6dcea3c6541e1884235d4c6c445f1a0486bd3e9cad660af31b795b25b8
+        WEB_SITE=https://github.com/cdown/psi-notify
+         ENTERED=20200506
+         UPDATED=20200506
+           SHORT="Alert when your machine is becoming oversaturated, *before* it slows to a crawl "
+
+cat << EOF
+psi-notify is a minimal unprivileged notifier for system-wide resource pressure using PSI.
+
+This can help you to identify misbehaving applications on your machine before they start to severely impact system responsiveness, in a way which MemAvailable or other metrics cannot.
+EOF

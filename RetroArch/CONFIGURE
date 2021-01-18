@@ -1,0 +1,15 @@
+mquery THREADS "Enable threading support (recommend yes)" y "--enable-threads" "--disable-threads"
+
+mquery SSE "Enable x86 SSE optimizations (recommend yes if supported)" y "--enable-sse" "--disable-sse"
+
+mquery GL2 "Enable OpenGL 2.0 support?" y "--enable-opengl" "--disable-opengl"
+
+mquery GL3 "Enable OpenGL 3.2+ support?" y "--enable-opengl_core" "--disable-opengl_core"
+
+mquery EGL "Enable EGL support?" y "--enable-dynamic_egl --enable-egl" "--disable-egl --disable_dynamic_egl"
+
+mquery KMS "Enable modesetting support?" y "--enable-kms" "--disable-kms"
+
+mquery PARPORT "Parallel port joypad support" n "--enable-parport" "--disable-parport"
+
+mquery CDROM "CD-ROM support" n "--enable-cdrom" "--disable-cdrom"

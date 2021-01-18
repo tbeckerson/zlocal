@@ -1,0 +1,13 @@
+          MODULE=Minder
+         VERSION=1.11.3
+          SOURCE=$VERSION.tar.gz
+      SOURCE_URL=https://github.com/phase1geo/Minder/archive/
+      SOURCE_VFY=sha256:76116a439060c70ac5e829b518284d1f7117dac4879a6a65eef1e167f333e79a
+        WEB_SITE=https://github.com/phase1geo/Minder/
+         ENTERED=20200427
+         UPDATED=20210117
+           SHORT="Mind-mapping tool"
+
+cat << EOF
+Minder is a mind-mapping application, originally developed for Elementary OS. Use the power of mind-mapping to make your ideas come to life.
+EOF

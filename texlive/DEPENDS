@@ -1,0 +1,26 @@
+depends zlib
+depends zziplib
+depends t1utils
+depends ed
+depends t1lib
+depends lcdf-typetools
+depends icu4c
+depends TECkit
+depends mpfr
+depends libpng
+depends fontconfig
+depends pixman
+depends poppler
+depends graphite
+depends cairo
+depends w3c-libwww
+depends libgd
+depends harfbuzz
+depends psutils
+
+# Needed to run fmtutil-sys in POST_INSTALL
+depends luatex
+
+optional_depends gmp "--with-system-gmp" "" "Use system gmp"
+
+optional_depends texlive-texmf "" "" "Download fonts? WARNING: the source tarball is more than 1.1Gb so make sure you have space!"

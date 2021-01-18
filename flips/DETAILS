@@ -1,0 +1,12 @@
+		  MODULE=flips
+         VERSION=master
+          SOURCE=$VERSION.zip
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/Flips-$VERSION
+      SOURCE_URL=https://github.com/Alcaro/Flips/archive/   WEB_SITE=https://github.com/Alcaro/Flips
+         ENTERED=20190830
+         UPDATED=20190830
+           SHORT="patcher for IPS and BPS files. "
+
+cat << EOF
+Floating IPS (or Flips) is a patcher for IPS and BPS files, aiming for a simple interface yet plenty of power under the hood.
+EOF

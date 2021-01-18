@@ -1,0 +1,13 @@
+          MODULE=anything-sync-daemon
+         VERSION=5.85
+          SOURCE=v$VERSION.tar.gz
+      SOURCE_URL=https://github.com/graysky2/anything-sync-daemon/archive/
+      SOURCE_VFY=1713979cac31b5319265bc49d826c906104662c659b1fad87056ce1c399e4ac7
+        WEB_SITE=https://github.com/graysky2/anything-sync-daemon
+         ENTERED=20200517
+         UPDATED=20200517
+           SHORT="Symlinks and syncs user specified dirs to RAM"
+
+cat << EOF
+Anything-sync-daemon (asd) is a tiny pseudo-daemon designed to manage user defined dirs in tmpfs and to periodically sync back to the physical disc (HDD/SSD). This is accomplished via a symlinking step and an innovative use of rsync to maintain back-up and synchronization between the two.
+EOF

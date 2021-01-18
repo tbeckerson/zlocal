@@ -1,0 +1,19 @@
+depends gtk+-3
+depends libXrandr
+depends iso-codes
+depends python
+
+optional_depends gtk-doc \
+   "-Dgtk-doc=true" \
+   "" \
+   "include documentation?"
+   
+optional_depends gobject-introspection \
+   "-Dintrospection=true" \
+   "" \
+   "support gobject-introspection?"
+   
+optional_depends startup-notification \
+   "-Dstartup-notification=true" \
+   "" \
+   "support X11 startup notification?"

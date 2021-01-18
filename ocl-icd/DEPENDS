@@ -1,0 +1,4 @@
+optional_depends CUDA-OpenCL-headers "" "" "for NVIDIA support"
+
+optional_depends asciidoc "" "" "build documentation"
+optional_depends xmlto    "" "" "also required for documentation"

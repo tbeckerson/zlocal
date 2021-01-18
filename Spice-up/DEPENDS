@@ -1,0 +1,8 @@
+depends vala
+depends gtk+-3
+depends granite
+depends libgee
+depends libevdev
+depends libgudev
+depends libsoup
+depends json-glib

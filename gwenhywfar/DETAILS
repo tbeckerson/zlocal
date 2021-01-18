@@ -1,0 +1,13 @@
+          MODULE=gwenhywfar
+         VERSION=5.4.0
+          SOURCE=$VERSION.tar.gz
+      SOURCE_URL=https://github.com/aqbanking/gwenhywfar/archive/
+      SOURCE_VFY=e46c3450d610b36f51b46ab97640ae340e8b68850f03b23b98c4ab682a5027c0
+        WEB_SITE=https://www.aquamaniac.de/sites/aqbanking/index.php
+         ENTERED=20180208
+         UPDATED=20200922
+           SHORT="OS abstraction functions for various projects"
+
+cat << EOF
+Gwenhywfar is a multi-platform helper library for networking and security applications and libraries. 
+EOF

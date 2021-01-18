@@ -1,0 +1,15 @@
+          MODULE=gnucash
+         VERSION=4.1
+          SOURCE=$MODULE-${VERSION}.tar.bz2
+      SOURCE_URL=https://github.com/Gnucash/$MODULE/releases/download/${VERSION}/
+      SOURCE_VFY=a40fc37122e1466c8085ad2be914f0687a111065f15c5d952faede78802225aa
+        WEB_SITE=https://gnucash.org
+         ENTERED=20190419
+         UPDATED=20200922
+           SHORT="Financial accounting software"
+
+cat << EOF
+GnuCash is personal and small-business financial-accounting software, freely licensed under the GNU GPL.
+
+Designed to be easy to use, yet powerful and flexible, GnuCash allows you to track bank accounts, stocks, income and expenses. As quick and intuitive to use as a checkbook register, it is based on professional accounting principles to ensure balanced books and accurate reports.
+EOF

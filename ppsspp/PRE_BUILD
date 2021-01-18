@@ -1,0 +1,35 @@
+default_pre_build &&
+
+wget -nc -P  $SOURCE_CACHE https://github.com/hrydgard/pspautotests/archive/328b839c7243e7f733f9eae88d059485e3d808e7.zip &&
+bsdtar -x --strip-components=1 -f $SOURCE_CACHE/328b839c7243e7f733f9eae88d059485e3d808e7.zip -C $SOURCE_DIRECTORY/pspautotests &&
+
+wget -nc -P  $SOURCE_CACHE https://github.com/hrydgard/ppsspp-ffmpeg/archive/d3e695286cce346274192c214c00f021c00cd575.zip &&
+bsdtar -x --strip-components=1 -f $SOURCE_CACHE/d3e695286cce346274192c214c00f021c00cd575.zip -C $SOURCE_DIRECTORY/ffmpeg &&
+
+wget -nc -P  $SOURCE_CACHE https://github.com/hrydgard/minidx9/archive/7751cf73f5c06f1be21f5f31c3e2d9a7bacd3a93.zip &&
+bsdtar -x --strip-components=1 -f $SOURCE_CACHE/7751cf73f5c06f1be21f5f31c3e2d9a7bacd3a93.zip -C $SOURCE_DIRECTORY/dx9sdk &&
+
+wget -nc -P  $SOURCE_CACHE https://github.com/Kingcom/armips/archive/7885552b208493a6a0f21663770c446c3ba65576.zip &&
+bsdtar -x --strip-components=1 -f $SOURCE_CACHE/7885552b208493a6a0f21663770c446c3ba65576.zip -C $SOURCE_DIRECTORY/ext/armips &&
+
+wget -nc -P $SOURCE_CACHE https://github.com/hrydgard/glslang/archive/d0850f875ec392a130ccf00018dab458b546f27c.zip &&
+bsdtar -x --strip-components=1 -f $SOURCE_CACHE/d0850f875ec392a130ccf00018dab458b546f27c.zip -C $SOURCE_DIRECTORY/ext/glslang &&
+
+wget -nc -P $SOURCE_CACHE https://github.com/KhronosGroup/SPIRV-Cross/archive/a1f7c8dc8ea2f94443951ee27003bffa562c1f13.zip &&
+bsdtar -x --strip-components=1 -f $SOURCE_CACHE/a1f7c8dc8ea2f94443951ee27003bffa562c1f13.zip -C $SOURCE_DIRECTORY/ext/SPIRV-Cross &&
+
+wget -nc -P $SOURCE_CACHE https://github.com/discord/discord-rpc/archive/3d3ae7129d17643bc706da0a2eea85aafd10ab3a.zip &&
+bsdtar -x --strip-components=1 -f $SOURCE_CACHE/3d3ae7129d17643bc706da0a2eea85aafd10ab3a.zip -C $SOURCE_DIRECTORY/ext/discord-rpc &&
+
+wget -nc -P $SOURCE_CACHE https://github.com/Tencent/rapidjson/archive/73063f5002612c6bf64fe24f851cd5cc0d83eef9.zip &&
+bsdtar -x --strip-components=1 -f $SOURCE_CACHE/73063f5002612c6bf64fe24f851cd5cc0d83eef9.zip -C $SOURCE_DIRECTORY/ext/rapidjson &&
+
+wget -nc -P $SOURCE_CACHE https://github.com/hrydgard/miniupnp/archive/7e229ddd635933239583ab190d9b614bde018157.zip &&
+mkdir -p ext/miniupnp &&
+bsdtar -x --strip-components=1 -f $SOURCE_CACHE/7e229ddd635933239583ab190d9b614bde018157.zip -C $SOURCE_DIRECTORY/ext/miniupnp &&
+ 
+wget -nc -P $SOURCE_CACHE https://github.com/hrydgard/ppsspp-lang/archive/d5a2a51942377820764604d9bb424fa9a879c4bd.zip &&
+bsdtar -x --strip-components=1 -f $SOURCE_CACHE/d5a2a51942377820764604d9bb424fa9a879c4bd.zip -C $SOURCE_DIRECTORY/assets/lang &&
+
+wget -nc -P $SOURCE_CACHE https://github.com/hrydgard/ppsspp-freetype/archive/cbea79dc8fef4d9210e2bac7e7b9b5ff3388197a.zip &&
+bsdtar -x --strip-components=1 -f $SOURCE_CACHE/cbea79dc8fef4d9210e2bac7e7b9b5ff3388197a.zip -C $SOURCE_DIRECTORY/ext/native/tools/prebuilt

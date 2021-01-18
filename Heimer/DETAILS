@@ -1,0 +1,13 @@
+          MODULE=Heimer
+         VERSION=1.21.0
+          SOURCE=$VERSION.tar.gz
+      SOURCE_URL=https://github.com/juzzlin/Heimer/archive/
+      SOURCE_VFY=sha256:3ec106b3b30cdbe04adcea37981c9214325a0aa92f2fae2df0bc12c95146434f
+        WEB_SITE=https://github.com/juzzlin/Heimer
+         ENTERED=20200427
+         UPDATED=20201111
+           SHORT="Mind-mapping tool"
+
+cat << EOF
+Heimer is a desktop application for creating mind maps and other suitable diagrams.
+EOF

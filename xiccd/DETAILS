@@ -1,0 +1,21 @@
+          MODULE=xiccd
+         VERSION=0.3.0
+          SOURCE=v${VERSION}.tar.gz
+      SOURCE_URL=https://github.com/agalakhov/xiccd/archive/
+      SOURCE_VFY=94dbe352ad3043079fa5edd8150318ec88f1dc87b75f69b1fced8ce2981c36a9
+        WEB_SITE=https://github.com/agalakhov/xiccd/
+         ENTERED=20200527
+         UPDATED=20200527
+           SHORT="X color profile daemon"
+
+cat << EOF
+xiccd is a simple bridge between colord and X. It does the following tasks:
+
+ * Enumerates displays and register them in colord;
+ * Creates default ICC profiles based on EDID data;
+ * Applies ICC profiles provided by colord;
+ * Maintains user's private ICC storage directory.
+
+It does basically the same as gnome-settings-daemon color plugin or colord-kde
+but does not depend on any particular desktop.
+EOF

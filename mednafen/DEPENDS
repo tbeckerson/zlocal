@@ -1,0 +1,13 @@
+depends SDL2
+depends zlib
+depends libsndfile
+
+optional_depends alsa-lib \
+        "--enable-alsa"     \
+        "--disable-alsa"    \
+        "Enable ALSA audio support?"
+
+optional_depends jack \
+        "--enable-jack"     \
+        "--disable-jack"    \
+        "Enable jack support?"

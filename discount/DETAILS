@@ -1,0 +1,13 @@
+          MODULE=discount
+         VERSION=2.2.7
+          SOURCE=v$VERSION.tar.gz
+ SOURCE_URL=https://github.com/Orc/discount/archive/
+      SOURCE_VFY=sha256:72c1325ddfc40871d6810f1e272cf2d45b361f26357eb38f170fd04d737bb9f2
+        WEB_SITE=https://www.pell.portland.or.us/~orc/Code/discount/
+         ENTERED=20200924
+         UPDATED=20200924
+           SHORT="Markdown implementation"
+
+cat << EOF
+Markdown provides a library that gives you formatting functions suitable for marking down entire documents or lines of text, a command-line program that you can use to mark down documents interactively or from a script, and a tiny (3 programs so far) suite of example programs that show how to fully utilize the markdown library.
+EOF

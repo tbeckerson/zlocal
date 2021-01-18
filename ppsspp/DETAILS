@@ -1,0 +1,13 @@
+          MODULE=ppsspp
+         VERSION=1.10.3
+          SOURCE=v${VERSION}.tar.gz
+      SOURCE_URL=https://github.com/hrydgard/ppsspp/archive/
+      SOURCE_VFY=92a0931c0817529202679f926632510658f3aeea83e2a1663f9cce595b505421 
+        WEB_SITE=https://ppsspp.org 
+         ENTERED=20190419
+         UPDATED=20200922
+           SHORT="Sony PSP emulator"
+
+cat << EOF
+A PSP emulator for Android, Windows, Mac and Linux, written in C++.
+EOF

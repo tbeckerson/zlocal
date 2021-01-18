@@ -1,0 +1,12 @@
+default_pre_build &&
+
+##submodules
+cd $SOURCE_DIRECTORY/third-party &&
+wget https://github.com/microsoft/GSL/archive/v${GSLVER}.tar.gz &&
+tar xf v${GSLVER}.tar.gz --overwrite --strip=1 -C GSL &&
+wget https://github.com/fmtlib/fmt/archive/${FMTVER}.tar.gz &&
+tar xf ${FMTVER}.tar.gz --overwrite --strip=1 -C fmtlib &&
+wget https://github.com/ericniebler/range-v3/archive/${RANGEVER}.tar.gz &&
+tar xf ${RANGEVER}.tar.gz --overwrite --strip=1 -C range-v3 &&
+
+cd $SOURCE_DIRECTORY

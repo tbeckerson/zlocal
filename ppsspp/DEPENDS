@@ -1,0 +1,11 @@
+depends python
+depends mesa-lib
+depends SDL2
+depends glew
+depends glu
+depends snappy
+depends libpng
+depends libzip
+depends libarchive
+
+optional_depends qt5 "-DUSING_QT_UI=ON" "-DUSING_QT_UI=OFF" "for QT5 gui? If NO, uses SDL gui."

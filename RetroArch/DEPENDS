@@ -1,0 +1,99 @@
+depends mesa-lib
+
+optional_depends libdrm \
+    "--enable-plain_drm" \
+    "--disable-plain_drm" \
+    "Direct Rendering Manager support"
+optional_depends qt5 \
+    "--enable-qt" \
+    "--disable-qt" \
+    "QT companion support"
+optional_depends libcaca \
+    "--enable-caca" \
+    "--disable-caca" \
+    "ASCII output support"
+optional_depends SDL \
+    "--enable-sdl" \
+    "--disable-sdl" \
+    "Enable SDL1 support (recommend SDL2 instead)" \
+    n
+optional_depends SDL2 \
+    "--enable-sdl2" \
+    "--disable-sdl2" \
+    "Enable SDL2 support (will disable SDL1)"
+optional_depends libusb \
+    "--enable-libusb" \
+    "--disable-libusb" \
+    "USB device support"
+optional_depends dbus \
+    "--enable-dbus" \
+    "--disable-dbus" \
+    "dbus support"
+optional_depends systemd \
+    "--enable-systemd" \
+    "--disable-systemd" \
+    "systemd support"
+optional_depends ffmpeg \
+    "--enable-ffmpeg" \
+    "--disable-ffmpeg" \
+    "Enable AVI video playback support"
+optional_depends libass \
+    "--enable-ssa" \
+    "--disable-ssa" \
+    "Subtitle rendering"
+optional_depends libxcb \
+    "--enable-x11 --enable-xrandr --enable-xinerama --enable-xvideo --enable-xshm" \
+    "--disable-x11 --disable-xrandr --disable-xinerama --disable-xvideo --disable-xshm" \
+    "X11 support"
+optional_depends wayland \
+    "--enable-wayland" \
+    "--disable-wayland" \
+    "Wayland Compositor support"
+optional_depends v4l-utils \
+    "--enable-v4l2" \
+    "--disable-v4l2" \
+    "Video4Linux2 support"
+optional_depends zlib \
+    "--enable-zlib" \
+    "--disable-zlib" \
+    "ZIP extract, PNG decoding/encoding"
+optional_depends pulseaudio \
+    "--enable-pulse" \
+    "--disable-pulse" \
+    "PulseAudio support"
+optional_depends alsa-lib \
+    "--enable-alsa" \
+    "--disable-alsa" \
+    "ALSA audio support"
+optional_depends openal \
+    "--enable-al" \
+    "--disable-al" \
+    "OpenAL audio support"
+optional_depends jack \
+    "--enable-jack" \
+    "--disable-jack" \
+    "JACK audio support"
+optional_depends flac \
+    "--enable-flac" \
+    "--disable-flac" \
+    "FLAC audio support"
+optional_depends freetype2 \
+    "--enable-freetype" \
+    "--disable-freetype" \
+    "font rendering support"
+optional_depends lua \
+    "--enable-lua" \
+    "--disable-lua" \
+    "Lua support (for Retro Achievements)"
+optional_depends slang \
+    "--enable-slang" \
+    "--disable-slang" \
+    "slang support (needed for glslang)"
+optional_depends glslang \
+    "--enable-glslang" \
+    "--disable-glslang" \
+    "glslang shader support (requires slang)"
+optional_depends openssl \
+    "--enable-ssl" \
+    "--disable-ssl" \
+    "OpenSSL secure connection support"

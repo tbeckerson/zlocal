@@ -1,0 +1,55 @@
+# required
+depends sqlite
+depends openjpeg-2
+depends libpng
+depends pugixml
+depends gtk+-3
+depends cairo
+depends lcms2
+depends exiv2
+depends tiff
+depends curl
+depends gphoto2
+depends dbus-glib
+depends openexr
+depends libsoup
+depends isl
+depends openmp
+
+# not hard requirements, but
+# important to functionality
+
+depends libxslt
+depends gettext
+depends lensfun
+depends libxml2
+depends json-glib
+depends pango
+depends zlib
+depends libwebp
+depends GraphicsMagick
+
+optional_depends colord-gtk \
+      "-DUSE_COLORD=1" \
+      "-DUSE_COLORD=0"  \
+      "For color management support" y
+optional_depends luajit \
+      "-DUSE_LUA=1" \
+      "-DUSE_LUA=0" \
+      "For lua scripting support" y
+optional_depends flickcurl \
+      "-DUSE_FLICKR=1" \
+      "-DUSE_FLICKR=0" \
+      "For Flickr API support" n
+optional_depends libsecret \
+      "-DUSE_LIBSECRET=1" \
+      "-DUSE_LIBSECRET=0" \
+      "For storing and retrieving passwords" n
+optional_depends kwallet \
+      "-DUSE_KWALLET=1" \
+      "-DUSE_KWALLET=0" \
+      "Use kwallet password manager" n
+optional_depends ocl-icd \
+      "-DUSE_OPENCL=ON" \
+      "" \
+      "for OpenCL support" y

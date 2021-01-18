@@ -1,0 +1,8 @@
+depends alsa-lib
+depends pulseaudio
+depends qt5
+depends llvm
+depends SDL2
+
+optional_depends gperf "" "" "for advanced memory allocator"
+optional_depends bluez-5 "" "" "for bluetooth support"

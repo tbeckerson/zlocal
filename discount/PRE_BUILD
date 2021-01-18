@@ -1,0 +1,2 @@
+default_pre_build &&
+sed -e 's|FLAGS=\"$CFLAGS -shared\"|FLAGS="$CFLAGS $LDFLAGS -shared"|g' -i configure.inc

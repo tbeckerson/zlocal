@@ -1,0 +1,19 @@
+depends ninja
+depends guile
+depends libxml2
+depends gettext
+depends libxslt
+depends boost
+depends icu4c
+depends webkit2gtk3
+depends swig
+depends gmock
+depends dconf
+depends iso-codes
+
+optional_depends "aqbanking" "-DWITH_AQBANKING=ON" "-DWITH_AQBANKING=OFF" "support for online import?"
+optional_depends "libofx" "-DWITH_OFX=ON" "-DWITH_OFX=OFF" "support for OFX files?"
+optional_depends "libofx" "-DWITH_OFX=ON" "-DWITH_OFX=OFF" "support for OFX files?"
+optional_depends "python" "-DWITH_PYTHON=ON" "-DWITH_PYTHON=OFF" "Support Python bindings?"
+optional_depends "libdbi-drivers" "-DWITH_SQL=ON" "-DWITH_SQL=OFF" "database support?"
+optional_depends "doxygen" "-DWITH_DOXYGEN=ON" "-DWITH_DOXYGEN=OFF" "Enable Documentation?"

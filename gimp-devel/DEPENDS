@@ -1,0 +1,95 @@
+## needed
+depends appstream-glib
+depends babl
+depends cairo
+depends fontconfig
+depends freetype2
+depends gdk-pixbuf
+depends gegl
+depends gexiv2
+depends glib-2
+depends glib-networking
+depends gtk+-3
+depends harfbuzz
+depends bzip2
+depends lcms2
+depends libjpeg-turbo
+depends libpng
+depends librsvg
+depends lzma-sdk
+depends libmypaint
+depends mypaint-brushes-1
+depends poppler
+depends poppler-data
+depends tiff
+depends zlib
+
+
+##optional but should use
+
+depends python
+depends luajit
+depends gjs
+
+
+##real optional
+
+optional_depends ghostscript \
+                "-Dghostscript=enabled" \
+                "-Dghostscript=disabled" \
+                "for PostScript support"
+
+optional_depends aalib \
+                 "-Daa=enabled" \
+                 "-Daa=disabled" \
+                 "for ASCII art support"
+
+optional_depends libheif \
+                "-Dheif=enabled" \
+                "-Dheif=disabled" \
+                "for HEIF support"
+
+optional_depends libmng \
+                 "-Dmng=enabled" \
+                 "-Dmng=disabled" \
+                 "for MNG file support"
+
+optional_depends libwebp \
+                 "-Dwebp=enabled" \
+                 "-Dwebp=disabled" \
+                 "for webp file support"
+
+optional_depends libwmf \
+                 "-Dwmf=enabled" \
+                 "-Dwmf=disabled" \
+                 "for wmf file support"
+
+optional_depends libXcursor \
+                 "-Dxcursor=enabled" \
+                 "-Dxcursor=disabled" \
+                 "for X11 cursor"
+
+optional_depends libXpm \
+                 "-Dxpm=enabled" \
+                 "-Dxpm=disabled" \
+                 "for xpm file support"
+
+optional_depends openexr \
+                 "-Dopenexr=enabled" \
+                 "-Dopenexr=disabled" \
+                 "for remote file support"
+
+optional_depends libgudev \
+                 "-Dgudev=enabled" \
+                 "-Dgudev=disabled" \
+                 "for UDEV glib support"
+
+optional_depends webkit2gtk3 \
+                 "-Dwebkit=enabled" \
+                 "-Dwebkit=disabled" \
+                 "for GIMP help files"
+
+optional_depends gtk-doc \
+                "-Dgtk-doc=true" \
+                "-Dgtk-doc=false" \
+                "Build developer documentation"

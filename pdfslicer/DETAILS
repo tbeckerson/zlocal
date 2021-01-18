@@ -1,0 +1,16 @@
+          MODULE=pdfslicer
+         VERSION=1.8.3.1
+          GSLVER=3.0.0
+        RANGEVER=0.10.0
+          FMTVER=6.2.0
+          SOURCE=v${VERSION}.tar.gz
+      SOURCE_URL=https://github.com/junrrein/$MODULE/archive/
+      SOURCE_VFY=
+        WEB_SITE=https://junrrein.github.io/pdfslicer/
+         ENTERED=20200419
+         UPDATED=20200419
+           SHORT="extract, merge, rotate and reorder pages of PDF documents"
+
+cat << EOF
+This is a simple application for extracting, merging, rotating and reordering pages of PDF documents, with undo/redo support.
+EOF

@@ -1,0 +1,14 @@
+          MODULE=srain
+         VERSION=1.1.2
+          SOURCE=$VERSION.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
+      SOURCE_URL=https://github.com/SrainApp/srain/archive/
+      SOURCE_VFY=b3628bbd3d5466b15d2b3fa881e8d3bf9552953c767b92002714019cdb8dca8c
+        WEB_SITE=https://srain.im/
+         ENTERED=20200502
+         UPDATED=20200707
+           SHORT="Gnome3 IRC Client"
+
+cat << EOF
+IRC client which enables you to chat with people around world through large chatrooms or via private messaging.
+EOF

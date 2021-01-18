@@ -1,0 +1,2 @@
+default_pre_build &&
+mv /var/spool/lunar/$SOURCE /var/spool/lunar/$MODULE-$VERSION.zip

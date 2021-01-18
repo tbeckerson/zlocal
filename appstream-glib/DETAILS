@@ -1,0 +1,13 @@
+          MODULE=appstream-glib
+         VERSION=0.7.16
+          SOURCE=$MODULE-$VERSION.tar.xz
+ SOURCE_URL=https://people.freedesktop.org/~hughsient/appstream-glib/releases/
+      SOURCE_VFY=04f290d73bc865071112076b8a3345df2730783a16af976fe3becfd2f50d5992
+        WEB_SITE=https://github.com/hughsie/appstream-glib
+         ENTERED=20190915
+         UPDATED=20191019
+           SHORT="Objects and helpers for AppStream metadata"
+
+cat << EOF
+This library provides objects and helper methods to help reading and writing AppStream metadata. 
+EOF

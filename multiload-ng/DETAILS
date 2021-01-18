@@ -1,0 +1,13 @@
+        MODULE=multiload-ng
+         VERSION=1.5.2
+          SOURCE=v$VERSION.tar.gz
+      SOURCE_URL=https://github.com/udda/multiload-ng/archive/
+      SOURCE_VFY=ea77b84dc998c815f413a59d7e1461072abc19d97b64db6a0df4514fdc492d4a
+        WEB_SITE=https://udda.github.io/multiload-ng/
+         ENTERED=20190705
+         UPDATED=20210117
+           SHORT="A Graphical System Monitor."
+
+cat << EOF
+Multiload-ng is a modern graphical system monitor. It's a near-complete rewrite of the good old GNOME multiload applet, that aims to support every existing panel.
+EOF

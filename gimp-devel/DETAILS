@@ -1,0 +1,18 @@
+          MODULE=gimp-devel
+         VERSION=2_99_4
+          SOURCE=gimp-GIMP_${VERSION}.tar.bz2
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/gimp-GIMP_${VERSION}
+      SOURCE_URL=https://gitlab.gnome.org/GNOME/gimp/-/archive/GIMP_${VERSION}/
+      SOURCE_VFY=ff8ae3fa5b6c47046f8be031c71215cea60bcbc105605585c94e4fc5e791894a
+        WEB_SITE=http://www.gimp.org
+         ENTERED=20020826
+         UPDATED=20210117
+           SHORT="GNU Image Manipulation Program"
+
+cat << EOF
+The GIMP is the GNU Image Manipulation Program. It is a freely distributed piece
+of software suitable for such tasks as photo retouching, image composition and
+image authoring. It can be used as a simple paint program, an expert quality
+photo retouching program, an online batch processing system, a mass production
+image renderer, a image format converter, etc.
+EOF

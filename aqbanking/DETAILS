@@ -1,0 +1,17 @@
+          MODULE=aqbanking
+         VERSION=6.2.2
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=https://www.aquamaniac.de/rdm/attachments/download/334/
+      SOURCE_VFY=b14c2ec8069854226f8ced273c91948b8722b0e52e83c88b99df541fef2f40fd
+      WEB_SITE=https://www.aquamaniac.de/sites/aqbanking/index.php
+         ENTERED=20180319
+         UPDATED=20200922
+           SHORT="library for online banking and financial applications"
+PSAFE=no
+cat << EOF
+AqBanking is a library for online banking and financial
+applications.
+
+The intention of AqBanking is to provide a middle layer between the program
+and the various Online Banking libraries (e.g. AqHBCI, OpenHBCI etc).
+EOF

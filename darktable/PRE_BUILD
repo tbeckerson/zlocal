@@ -1,0 +1,14 @@
+default_pre_build &&
+
+## add in LLVM 11 support
+sedit 's:find_llvm(":find_llvm("11;:' CMakeLists.txt &&
+
+if module_installed gcc; then
+  if !in_depends gcc isl; then
+    error_message "Darktable requires GCC to be compiled with ISL support"
+    error_message "Reinstall GCC and include ISL support"
+    sleep 10
+    exit
+  fi
+fi
+

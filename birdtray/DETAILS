@@ -1,0 +1,13 @@
+          MODULE=birdtray
+         VERSION=1.9.0
+          SOURCE=v${VERSION}.tar.gz
+ SOURCE_URL=https://github.com/gyunaev/birdtray/archive/
+SOURCE_VFY=sha256:672256bfadbde2841dcd6bad00662aeba825a4f041fa9a1980763f9eb29294d0
+        WEB_SITE=https://github.com/gyunaev/birdtray
+         ENTERED=20191220
+         UPDATED=20210118
+           SHORT="System tray mail notification for Thunderbird."
+
+cat << EOF
+Birdtray is a system tray new mail notification for Thunderbird, which does not require extensions.
+EOF

@@ -1,0 +1,27 @@
+From 743885da84474bfffc5f5505c0d1a7160de6afef Mon Sep 17 00:00:00 2001
+From: Mario Cianciolo <udda@users.noreply.github.com>
+Date: Sun, 3 Jan 2021 16:57:38 +0100
+Subject: [PATCH] Fix build error for XFCE 4.16
+
+See: https://aur.archlinux.org/packages/xfce4-multiload-ng-plugin-gtk3#comment-782642
+
+Starting from v4.16, `xfce-panel-plugin.h` header file does not include `xfce-panel-macros.h` anymore, so the macro `XFCE_PANEL_PLUGIN_REGISTER` could not be found.
+Explicitly including said header file fixes build, and should be harmless to previous versions.
+
+Many thanks to @Photon89 for the help, and to *dmitmel* (AUR user) for suggesting the fix.
+---
+ xfce4/plugin.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/xfce4/plugin.c b/xfce4/plugin.c
+index 707e20d..da717e2 100644
+--- a/xfce4/plugin.c
++++ b/xfce4/plugin.c
+@@ -25,6 +25,7 @@
+ 
+ #include <libxfce4util/libxfce4util.h>
+ #include <libxfce4panel/xfce-panel-plugin.h>
++#include <libxfce4panel/xfce-panel-macros.h>
+ 
+ #include "common/multiload.h"
+ #include "common/ui.h"

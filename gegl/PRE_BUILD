@@ -1,0 +1,5 @@
+default_pre_build &&
+
+OPTS+=" -Ddocs=false" &&
+
+sedit 's@#include [<"]\(Im.*\)[">]@#include <OpenEXR/\1>@' operations/external/exr-load.cpp operations/external/exr-save.cc

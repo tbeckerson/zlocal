@@ -1,0 +1,4 @@
+depends vala
+depends gtk+-3
+depends libgee
+depends gobject-introspection

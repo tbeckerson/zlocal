@@ -1,0 +1,9 @@
+depends python-pip
+depends vala
+depends gtk+-3
+depends granite
+depends libxml2
+depends libgee
+depends libarchive
+depends gtksourceview
+depends discount

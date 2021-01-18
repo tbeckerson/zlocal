@@ -1,0 +1,2 @@
+depends mednafen
+depends gtk+-3

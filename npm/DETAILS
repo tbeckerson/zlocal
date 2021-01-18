@@ -1,0 +1,14 @@
+          MODULE=npm
+         VERSION=7.0.2
+          SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/cli-$VERSION
+ SOURCE_URL_FULL=http://github.com/npm/cli/archive/v$VERSION.tar.gz
+      SOURCE_VFY=sha256:2a73203520787034e39d4a76d02123804169d95b625dfd4e4242ac54fa11aa28
+        WEB_SITE=http://npmjs.org/
+         ENTERED=20150515
+         UPDATED=20201016
+           SHORT="A package manager for Node.js"
+
+cat << EOF
+A package manager for Node.js.
+EOF

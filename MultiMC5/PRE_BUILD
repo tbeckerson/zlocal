@@ -1,0 +1,7 @@
+default_pre_build &&
+cd $SOURCE_DIRECTORY/libraries &&
+wget https://github.com/MultiMC/quazip/archive/$QUAVER.tar.gz &&
+tar xvf $QUAVER.tar.gz --overwrite --strip=1 -C quazip &&
+wget https://github.com/MultiMC/libnbtplusplus/archive/$NBTVER.tar.gz &&
+tar xvf $NBTVER.tar.gz --overwrite --strip=1 -C libnbtplusplus &&
+cd $SOURCE_DIRECTORY
