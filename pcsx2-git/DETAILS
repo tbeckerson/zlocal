@@ -1,0 +1,13 @@
+          MODULE=pcsx2-git
+         VERSION=master
+          SOURCE=$VERSION.zip
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/pcsx2-master/   SOURCE_URL=https://github.com/PCSX2/pcsx2/archive/
+      SOURCE_VFY=
+        WEB_SITE=http://www.dolhpin-emu.org/
+         ENTERED=20210127
+         UPDATED=20210128
+           SHORT="Playstation 2 Emulator"
+
+cat << EOF
+PCSX2 is a free and open-source PlayStation 2 (PS2) emulator. Its purpose is to emulate the PS2's hardware, using a combination of MIPS CPU Interpreters, Recompilers and a Virtual Machine which manages hardware states and PS2 system memory. This allows you to play PS2 games on your PC, with many additional features and benefits.
+EOF

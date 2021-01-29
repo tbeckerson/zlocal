@@ -4,7 +4,7 @@ modules with a __*star__ beside the name are new modules, the others are modific
 
 __*Heimer__ - mindmapping tool.
 
-__ImageMagick__ - added libraqm support
+__ImageMagick__ - added libraqm support.
 
 __*MultiMC5__ - Advanced launcher for Minecraft. _Requires a wget of submodules. WIP._
 
@@ -20,8 +20,6 @@ __*appstream-glib__ - Objects and helpers for AppStream metadata. Required by __
 
 __aqbanking__ - Updated to newest version. Required by __*gnucash.__
 
-__*!atril__ - document reader.
-
 __!birdtray__ - systemtray notifier for Thunderbird. version bump.
 
 __darktable__ - updated to newest version.
@@ -32,9 +30,19 @@ __*dolphin-emu-git__ - Nintendo GameCube & Wii emulator. _Uses git-master, might
 
 __*flips__ - IPS file patching utility. _Uses git-master, be cautious._
 
+__*fmt__ - text formatting library. Used by _pcsx2-git._
+
+__fontconfig__ - patched to work with xfce4.
+
+__galculator__ - version bump.
+
+__gcr__ - added missing DEPENDS.
+
 __*gimp-devel__ - Powerful raster image editing program. Pulls in __*appstream-glib__ as dependency. _This is the official development release. Use with caution._
 
 __*!gmic-qt__ - Raster image editing program. GUI frontends to the GMIC libraries.
+
+__gnome-keyring__ - added patch for libcap fix.
 
 __*gnucash__ - Home and small-business accounting. Pulls in _aqbanking_ and _gwenhywfar_ as dependencies.
 
@@ -46,13 +54,13 @@ __gvfs__ - Updated DEPENDS to recent version of _fuse._
 
 __gwenhywfar__ - Updates DETAILS to latest version, and disables gui support. _WIP, use with caution._
 
-__inkscape__ - patched to fix the hated canvas rotation feature. Will be gone in a couple days with inkscape 1.0.2.
-
 __*libclc__ - opencl support in llvm / clang.
 
 __libcloudproviders__ - Updated DEPENDS.
 
 __libdbi-drivers__ - Updated DEPENDS to use generic %MYSQL alias.
+
+__linux__ - version bump.
 
 __llvm__ - added in opencl support. Requires __libclc.__
 
@@ -68,17 +76,21 @@ __mesa-lib__ - Added OpenCL support.
 
 __*multiload-ng__ - Graphical system monitor for _any_ panel.
 
-__npm__ - version bump.
+__node__ - fixed DEPENDS to use Python 3.
+
+__npm__ - version bump. _BROKEN_
 
 __ntfs-3g__ - Mount and modify Microsoft NTFS partitons. Updated the DEPENDS to use _fuse-3_.
 
 __*ocl-icd__ - OpenCL Installable Client Driver.
 
+__*pcsx2-git__ - Playstation 2 emulator. _Uses git-master. Be careful!._
+
 __*pdfslicer__ - extract, merge, rotate and reorder pages of PDF documents. _Requires a submodule init / wget of submodules. WIP.__
 
 __php__ - updating everything. _SEEMS_ to work fine.
 
-__ppsspp__ - Sony PSP emulator. _Requires an extensive wget of submodules. WIP._
+__*ppsspp__ - Sony PSP emulator. _Requires an extensive wget of submodules. WIP._
 
 __*psi-notify__ - system load monitoring utility.
 
@@ -95,6 +107,10 @@ __tagtool__ - Updated DEPENDS to use recent _glade._
 __texlive__ - made texlive-texmf an optional_depends.
 
 __xar__ - fix compatability with updated OpenSSL.
+
+__xf86-video-amdgpu__ - fixed gcc 10 compatability, and hardening compiler error.
+
+__xfce4-taskmanager__ - removed GTK2 support.
 
 __xfdashboard__ - version bump.
 

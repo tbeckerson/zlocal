@@ -27,7 +27,7 @@ depends json-glib
 depends pango
 depends zlib
 depends libwebp
-depends GraphicsMagick
+depends ImageMagick
 
 optional_depends colord-gtk \
       "-DUSE_COLORD=1" \

@@ -1,0 +1,7 @@
+depends gtk+-3
+depends pulseaudio
+depends soundtouch
+depends SDL2
+depends harfbuzz
+depends fmt
+depends yaml-cpp

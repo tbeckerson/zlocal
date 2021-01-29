@@ -1,0 +1,95 @@
+    0.000 D <> Log initialized.
+    0.000 D MultiMC 5, (c) 2013-2019 MultiMC Contributors
+    0.000 D Version                    :  "0.6.11-custom"
+    0.001 D Git commit                 :  "GITDIR-NOTFOUND"
+    0.001 D Git refspec                :  "GITDIR-NOTFOUND"
+    0.001 D Work dir before adjustment :  "/var/lib/lunar/moonbase/zlocal/MultiMC5"
+    0.001 D Work dir after adjustment  :  "/var/lib/lunar/moonbase/zlocal/MultiMC5/.config/multimc"
+    0.001 D Adjusted by                :  "Command line .config/multimc"
+    0.001 D Binary path                :  "/usr/bin"
+    0.001 D Application root path      :  "/usr"
+    0.001 D <> Paths set.
+    0.310 D Detected default console font: "DejaVu Sans Mono" , substitutions: ""
+    0.310 D <> Settings loaded.
+    0.310 C Exception: "Unable to open /var/lib/lunar/moonbase/zlocal/MultiMC5/.config/multimc/translations/index_v2.json for reading: No such file or directory"
+    0.310 C Translations Download Failed: index file not readable
+    0.311 W Selected invalid language "" , defaulting to "en"
+    0.311 D Your language is ""
+    0.311 D <> Translations loaded.
+    0.311 D Started watching  "/var/lib/lunar/moonbase/zlocal/MultiMC5/.config/multimc/icons"
+    0.315 D <> Instance icons intialized.
+    0.315 D <> Icon themes initialized.
+    0.315 D ""
+    0.315 D Loading theme "custom"
+    0.315 D No theme json present.
+    0.347 D No theme css present.
+    0.369 D <> Widget themes initialized.
+    0.369 D Instance path              :  "instances"
+    0.369 D Loading Instances...
+    0.369 D Discovering instances in "/var/lib/lunar/moonbase/zlocal/MultiMC5/.config/multimc/instances"
+    0.370 D <> Instances loaded.
+    0.370 D Loading accounts...
+    0.370 C "Failed to read the account list file (accounts.json)."
+    0.370 D <> Accounts loaded.
+    0.370 D <> Cache initialized.
+    0.370 D Detecting proxy settings...
+    0.370 D Using no proxy is an option!
+    0.370 D <> Proxy settings done.
+    0.370 D Downloading Translations Index...
+    0.370 D Task "NetJob(Translations Index)" starting for the first time
+    0.370 D <> Icon theme set.
+    0.370 D <> Application theme set.
+    0.392 D Analytics info not seen by user yet (or old version).
+    0.675 D Downloading  "https://files.multimc.org/translations/index_v2.json"
+    1.014 D Download succeeded: "https://files.multimc.org/translations/index_v2.json"
+    1.014 D Task "NetJob(Translations Index)" succeeded
+    1.014 D Got translations index!
+    1.014 D Dir changed: "/var/lib/lunar/moonbase/zlocal/MultiMC5/.config/multimc/translations"
+    1.934 W   OpenType support missing for "Abel", script 20
+    3.414 D Wizard result = 0
+    3.431 W QMetaObject::connectSlotsByName: No matching signal for on_actionInstanceSettings_triggered()
+    3.433 D Task "NetJob(Status JSON)" starting for the first time
+    3.436 D Reloading news.
+    3.436 D Task "NetJob(News RSS Feed)" starting for the first time
+    3.436 C Failed to check for notifications. No notifications URL set. If you'd like to use MultiMC's notification system, please pass the URL to CMake at compile time.
+    3.443 D Viewport size "800x600"
+    3.443 D RAM size is 15958 MB
+    3.449 D ""
+    3.449 D [Analytics] "ScreenView: Main Window"
+    3.449 D <> Main window shown.
+    3.458 D Downloading  "https://status.mojang.com/check"
+    3.458 D Downloading  "https://multimc.org/rss.xml"
+    3.601 D Download succeeded: "https://status.mojang.com/check"
+    3.601 D Task "NetJob(Status JSON)" succeeded
+    3.601 D Finished loading status JSON.
+    3.601 D Status loading succeeded.
+    3.862 D Download succeeded: "https://multimc.org/rss.xml"
+    3.862 D Task "NetJob(News RSS Feed)" succeeded
+    3.862 D Finished loading RSS feed.
+    3.864 D Loaded news entry "About Microsoft accounts"
+    3.864 D Loaded news entry "0.6.7 - UI fixes and important metadata news - update required!"
+    3.864 D Loaded news entry "0.6.5 - translation UI and legacy sound fixes"
+    3.864 D Loaded news entry "0.6.4 - better translation workflow and new FTB API location"
+    3.864 D Loaded news entry "0.6.3 - The Big Sync"
+    3.864 D Loaded news entry "0.6.2 Released!"
+    3.864 D Loaded news entry "0.6.1 Released!"
+    3.864 D Loaded news entry "0.6.0 Released!"
+    3.864 D Loaded news entry "Introducing the Archive"
+    3.865 D Loaded news entry "0.5.1 - Bugfixes."
+    3.865 D Loaded news entry "0.5.0 - Running multiple instances at the same time!"
+    3.865 D Loaded news entry "0.4.11 - OSX 10.7 fix and workaround for Minecraft 1.9 compatibility"
+    3.865 D Loaded news entry "0.4.10 - Another wifi fix"
+    3.865 D Loaded news entry "0.4.9 - the Windows wifi fix."
+    3.865 D Loaded news entry "0.4.8 - Worlds and more."
+    3.865 D Loaded news entry "0.4.7 - What 0.4.6 should have been."
+    3.865 D Loaded news entry "0.4.6 - Bug fixes and improvements!"
+    3.865 D Loaded news entry "0.4.5 - Translations, Themes, and Technic"
+    3.865 D Loaded news entry "0.4 out - Jar mods, UI changes, and more!"
+    3.865 D Loaded news entry "Introducing QuickMods - A better way to install mods"
+    3.865 D Loaded news entry "Support us on Patreon!"
+    3.865 D Loaded news entry "Heartbleed Vulnerability Update (fixed!)"
+    3.865 D Loaded news entry "Announcing MultiMC 6"
+    3.865 D Loaded news entry "0.3 - The big feature update."
+    3.865 D Loaded news entry "First official MultiMC 5 release!"
+    3.865 D Loaded news entry "MultiMC Status Update"
+    3.865 D News loading succeeded.
