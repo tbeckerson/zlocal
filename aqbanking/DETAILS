@@ -1,11 +1,11 @@
           MODULE=aqbanking
-         VERSION=6.2.2
+         VERSION=6.2.5
           SOURCE=$MODULE-$VERSION.tar.gz
-      SOURCE_URL=https://www.aquamaniac.de/rdm/attachments/download/334/
-      SOURCE_VFY=b14c2ec8069854226f8ced273c91948b8722b0e52e83c88b99df541fef2f40fd
+      SOURCE_URL_FULL=https://github.com/aqbanking/aqbanking/archive/6.2.5.tar.gz
+      SOURCE_VFY=1a783e3abc5e7540cc5e4679c2fa5acfcfd2272186b5604960d644dad5da9c80
       WEB_SITE=https://www.aquamaniac.de/sites/aqbanking/index.php
          ENTERED=20180319
-         UPDATED=20200922
+         UPDATED=20210128
            SHORT="library for online banking and financial applications"
 PSAFE=no
 cat << EOF

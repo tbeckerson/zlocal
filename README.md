@@ -4,7 +4,7 @@ modules with a __*star__ beside the name are new modules, the others are modific
 
 __*Heimer__ - mindmapping tool.
 
-__ImageMagick__ - added libraqm support.
+__ImageMagick__ - added libopenraw and libraqm support.
 
 __*MultiMC5__ - Advanced launcher for Minecraft. _Requires a wget of submodules. WIP._
 
@@ -16,7 +16,7 @@ __*Spice-up__ - Presentation maker, part of Elementary OS. Pulls in __*granite._
 
 __*anything_sync_daemon__ - puts chosen folders into ramdisk on boot, restores them to drive on shutdown.
 
-__*appstream-glib__ - Objects and helpers for AppStream metadata. Required by __*flatpak__ and __*gimp-git.__
+__*appstream-glib__ - Objects and helpers for AppStream metadata. Required by __*gimp-devel.__
 
 __aqbanking__ - Updated to newest version. Required by __*gnucash.__
 
@@ -34,15 +34,13 @@ __*fmt__ - text formatting library. Used by _pcsx2-git._
 
 __fontconfig__ - patched to work with xfce4.
 
-__galculator__ - version bump.
+__galculator__ - patched to work with GCC 10.
 
-__gcr__ - added missing DEPENDS.
+__gcr__ - added missing DEPENDS (maybe? no one else needs it).
 
 __*gimp-devel__ - Powerful raster image editing program. Pulls in __*appstream-glib__ as dependency. _This is the official development release. Use with caution._
 
 __*!gmic-qt__ - Raster image editing program. GUI frontends to the GMIC libraries.
-
-__gnome-keyring__ - added patch for libcap fix.
 
 __*gnucash__ - Home and small-business accounting. Pulls in _aqbanking_ and _gwenhywfar_ as dependencies.
 
@@ -76,8 +74,6 @@ __mesa-lib__ - Added OpenCL support.
 
 __*multiload-ng__ - Graphical system monitor for _any_ panel.
 
-__node__ - fixed DEPENDS to use Python 3.
-
 __npm__ - version bump. _BROKEN_
 
 __ntfs-3g__ - Mount and modify Microsoft NTFS partitons. Updated the DEPENDS to use _fuse-3_.
@@ -109,9 +105,5 @@ __texlive__ - made texlive-texmf an optional_depends.
 __xar__ - fix compatability with updated OpenSSL.
 
 __xf86-video-amdgpu__ - fixed gcc 10 compatability, and hardening compiler error.
-
-__xfce4-taskmanager__ - removed GTK2 support.
-
-__xfdashboard__ - version bump.
 
 __*xiccd__ - Commandline based colour profile manager.

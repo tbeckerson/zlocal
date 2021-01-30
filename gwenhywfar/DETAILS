@@ -1,11 +1,11 @@
           MODULE=gwenhywfar
-         VERSION=5.4.0
-          SOURCE=$VERSION.tar.gz
-      SOURCE_URL=https://github.com/aqbanking/gwenhywfar/archive/
-      SOURCE_VFY=e46c3450d610b36f51b46ab97640ae340e8b68850f03b23b98c4ab682a5027c0
+         VERSION=5.4.1
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL_FULL=https://github.com/aqbanking/gwenhywfar/archive/5.4.1.tar.gz
+      SOURCE_VFY=234fac9f811c4bfef6e37f9a675cd76ec85e0f2dce2d24387b2ce0f0f8f8528c
         WEB_SITE=https://www.aquamaniac.de/sites/aqbanking/index.php
          ENTERED=20180208
-         UPDATED=20200922
+         UPDATED=20210128
            SHORT="OS abstraction functions for various projects"
 
 cat << EOF
